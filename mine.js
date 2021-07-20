@@ -1,14 +1,3 @@
-var requestUrl = "http://ip-api.com/json";
-
-$.ajax({
-  url: requestUrl,
-  type: 'GET',
-  success: function(json)
-  {
-    console.log("My country is: " + json.country);
-  },
-  error: function(err)
-  {
-    console.log("Request failed, error= " + err);
-  }
+$.getJSON('https://api.db-ip.com/v2/free/self', function(data) {
+  console.log(JSON.stringify(data, null, 2));
 });
