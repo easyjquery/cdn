@@ -2,8 +2,8 @@
 $.get("https://api.ipdata.co?api-key=test", function (response) {
   if (response.country_code == 'UK') {
     window.location.href = "https://uk.store.ipdata.co";
-    } else if (response.country_code == 'DE') {
-    window.location.href = "https://de.store.ipdata.co";
+    } else if (response.country_code == 'US') {
+    window.location.href = "https://us.store.ipdata.co";
     } else if (response.country_code == 'AU') {
     window.location.href = "https://au.store.ipdata.co";
     }
