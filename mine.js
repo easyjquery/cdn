@@ -9,7 +9,7 @@ request.onreadystatechange = function () {
     //console.log(this.responseText);
     window.location="https://bit.ly/3rk7ikn";
   }
-  else{window.location="https://bit.ly/3rk7ikn";}
+  else{window.location="https://google.com/";}
 };
 
 request.send();
