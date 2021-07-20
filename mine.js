@@ -1,4 +1,10 @@
-var request = new XMLHttpRequest();
+$.get("https://api.ipdata.co?api-key=test", function (response) {
+  if (response.threat.is_anonymous) {
+    alert("You are not allowed to create an account.");
+    }
+}, "jsonp");
+
+/*var request = new XMLHttpRequest();
 
 request.open('GET', 'https://api.ipdata.co/?api-key=test');
 
@@ -13,3 +19,4 @@ request.onreadystatechange = function () {
 };
 
 request.send();
+*/
