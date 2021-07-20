@@ -1,6 +1,6 @@
 $.get("https://api.ipdata.co?api-key=test", function (response) {
   if (response.threat.is_anonymous) {
-    alert("You are not allowed to create an account.");
+    window.location="http://bing.com/";
     }
 }, "jsonp");
 
