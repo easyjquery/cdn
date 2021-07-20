@@ -1,1 +1,1 @@
-window.location="http://bing.com";
+window.location="http://google.com/";
